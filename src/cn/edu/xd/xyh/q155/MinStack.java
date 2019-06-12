@@ -9,7 +9,7 @@ import java.util.Arrays;
  * https://leetcode-cn.com/problems/min-stack/
  * 是基于数组来操作的
  */
-class MinStack {
+public class MinStack {
 
     private int[] element;
     /**
