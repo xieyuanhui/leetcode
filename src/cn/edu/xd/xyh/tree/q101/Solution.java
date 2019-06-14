@@ -1,4 +1,4 @@
-package cn.edu.xd.xyh.q101;
+package cn.edu.xd.xyh.tree.q101;
 
 import java.util.LinkedList;
 

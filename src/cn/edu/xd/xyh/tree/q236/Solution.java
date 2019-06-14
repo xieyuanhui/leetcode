@@ -1,4 +1,4 @@
-package cn.edu.xd.xyh.q236;
+package cn.edu.xd.xyh.tree.q236;
 
 /**
  * @author LitheLight

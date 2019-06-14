@@ -1,4 +1,4 @@
-package cn.edu.xd.xyh.q155;
+package cn.edu.xd.xyh.stack.q155;
 
 import java.util.Arrays;
 

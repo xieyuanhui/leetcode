@@ -1,4 +1,4 @@
-package cn.edu.xd.xyh.q71;
+package cn.edu.xd.xyh.stack.q71;
 
 import java.util.Stack;
 

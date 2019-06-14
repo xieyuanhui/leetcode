@@ -1,4 +1,4 @@
-package cn.edu.xd.xyh.q230;
+package cn.edu.xd.xyh.tree.q230;
 
 import java.util.Stack;
 

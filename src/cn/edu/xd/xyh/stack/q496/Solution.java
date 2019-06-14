@@ -1,4 +1,4 @@
-package cn.edu.xd.xyh.q496;
+package cn.edu.xd.xyh.stack.q496;
 
 import java.util.HashMap;
 import java.util.Stack;
