@@ -57,6 +57,8 @@ public class PalindromeList {
             //奇数
             slow= slow.next;
         }
+
+        //链表反转
         ListNode reverseHead = null;
         ListNode pNode = slow;
         ListNode pre =null;
