@@ -1,5 +1,8 @@
 package cn.edu.xd.xyh.array.q11;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 /**
  * @author LitheLight
  * @date 2019/6/15
@@ -22,5 +25,25 @@ public class Solution {
             }
         }
         return value;
+    }
+
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        list.add("4");
+        Iterator<String> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            String item = iterator.next();
+            System.out.println(item);
+            if (item.equals("2")) {
+                // 错误的删除方法
+                list.remove(item);
+                // 正确的删除方法
+                iterator.remove();
+            }
+            System.out.println(list);
+        }
     }
 }
