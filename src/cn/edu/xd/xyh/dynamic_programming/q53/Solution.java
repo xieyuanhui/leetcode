@@ -13,7 +13,7 @@ public class Solution {
         int sum = nums[0];
         int max = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            // sum < 0 说明 i-1之前的和小于 0，所以0 ~（i - 1）这个序列不要，直接让sum = 0就相当于情况
+            // sum < 0 说明 i-1之前的和小于 0，所以0 ~（i - 1）这个序列不要，直接让sum = 0就相当于清空
             if (sum < 0) {
                 sum = 0;
             }

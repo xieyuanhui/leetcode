@@ -1,5 +1,7 @@
 package cn.edu.xd.xyh.linkedlist.q141;
 
+import cn.edu.xd.xyh.linkedlist.ListNode;
+
 /**
  * @author LitheLight
  * @date 2019/7/5
@@ -21,15 +23,5 @@ public class Solution {
             }
         }
         return false;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-        next = null;
     }
 }

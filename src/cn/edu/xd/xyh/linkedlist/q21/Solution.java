@@ -1,5 +1,7 @@
 package cn.edu.xd.xyh.linkedlist.q21;
 
+import cn.edu.xd.xyh.linkedlist.ListNode;
+
 /**
  * @author LitheLight
  * @date 2019/6/14
@@ -23,14 +25,5 @@ public class Solution {
             cur = cur.next;
         }
         return dummyNode.next;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
     }
 }
